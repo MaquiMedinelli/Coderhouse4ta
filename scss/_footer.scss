@@ -1,0 +1,44 @@
+/*inicio footer*/
+
+footer {
+    width: 100%;
+    background: $verdeagua;
+}
+
+
+/*fin de footer*/
+
+
+/*inicio estilo footer con ul*/
+
+.pie ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*fin estilo footer con ul*/
+
+
+/*inicio estilo footer con ul y li*/
+
+.pie li:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+
+/*fin estilo footer con ul y li*/
+
+
+/*inicio estilo footer con li y a*/
+
+.pie li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*fin estilo footer con li y a*/

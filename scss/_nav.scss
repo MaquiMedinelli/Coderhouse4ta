@@ -1,0 +1,33 @@
+/*inicio header*/
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+
+/*fin de header*/
+
+
+/*inicio estilo menu */
+
+.menu ul {
+    justify-content: flex-end;
+    list-style: none;
+    display: flex;
+}
+
+.menu li:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: $blanco;
+    text-decoration: none;
+    width: 100%;
+}
+
+
+/* fin estilo menu */

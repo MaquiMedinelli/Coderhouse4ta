@@ -1,0 +1,100 @@
+/*estilo html contacto*/
+
+.contactoFormulario {
+    max-width: 480px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #5e837f;
+    padding-left: 30px;
+}
+
+.formH {
+    color: rgb(128, 180, 176);
+}
+
+input {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #138d75;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.soyHumano {
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+textarea {
+    background-color: #fbfbfb;
+    max-width: 405px;
+    height: 60px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #138d75;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    width: 100%;
+}
+
+label {
+    display: block;
+}
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #138d75;
+    border-color: #97d848;
+    border-style: solid;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 420px;
+    cursor: pointer;
+}
+
+
+/*inicio estilo parrafo del boton */
+
+button p {
+    color: #fff;
+}
+
+
+/*fin estilo parrafo del boton */
+
+
+/*inicio color de letra dentro del imput*/
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+
+/*fin color de letra dentro del imput*/
+
+.formulario input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}

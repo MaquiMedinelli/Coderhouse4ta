@@ -1,0 +1,38 @@
+/*inicio galeria*/
+
+.linea {
+    background: #27bda0;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+
+.galeria {
+    display: grid;
+    width: 95%;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.galeria>a {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.galeria img {
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    filter: blur(0.5px);
+}
+
+.galeria a:hover img {
+    filter: blur(0px);
+    transform: rotate(6deg) scale(1.3);
+}
